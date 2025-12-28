@@ -52,7 +52,6 @@ Un contenedor que carga y almacena las curvas predefinidas (niveles, trayectoria
 * Compilador GCC o Clang.
 * Biblioteca `libsdl2-dev`.
 * Herramienta `make`.
-* Ejecución `./rezta`.
 * Valgrind.
 
 ### Compilación
@@ -60,3 +59,10 @@ El proyecto incluye un `Makefile` para automatizar la construcción. Ejecute:
 
 ```bash
 make
+```
+### Ejecución
+Para ejecutar el proyecto escriba:
+
+```bash
+./rezta
+```
