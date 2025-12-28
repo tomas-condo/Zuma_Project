@@ -46,13 +46,14 @@ Un contenedor que carga y almacena las curvas predefinidas (niveles, trayectoria
 * **Niveles:** Sistema escalable de 4 niveles con dificultad progresiva y curvas distintas.
 * **Sapo:** El lanzador rota siguiendo el mouse y permite intercambiar la bola actual con la siguiente.
 
-## ⚙️ Instalación y Compilación
+## ⚙️ Instalación, Compilación y Ejecución
 
 ### Requisitos previos
 * Compilador GCC o Clang.
 * Biblioteca `libsdl2-dev`.
 * Herramienta `make`.
-* Valgrind (opcional, para depuración).
+* Ejecución `./rezta`.
+* Valgrind.
 
 ### Compilación
 El proyecto incluye un `Makefile` para automatizar la construcción. Ejecute:
